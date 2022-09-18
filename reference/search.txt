@@ -1,0 +1,44 @@
+<form action="#">
+            <input type="search" id="search" class="search-data" placeholder="Search">
+            <button  class="fa fa-search" onclick="s()">search</button>
+
+
+
+
+        </form>
+
+
+nav form {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border-radius: 2px;
+    padding: 2px;
+    background: whitesmoke;
+    min-width: 18px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+nav form .search-data {
+    height: 35px;
+    width: 200px;  
+    padding: 0 10px;
+    color: black;
+    background: none ;
+    font-weight: 500;
+    border: none;
+    font-size: 10px bold;
+
+
+     
+}
+nav form button {
+    padding: 0 17px;
+    background: tomato;
+    border:none;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+    border-radius: 15px;
+}

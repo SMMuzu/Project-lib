@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding Section</title>
+    </head>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    }
+    body {
+        background: black;
+    }
+    nav {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+        padding: 0 100px;
+
+    }
+    nav .library {
+        color: white;
+        font-size: 55px;
+        font-weight: 600px;
+        letter-spacing: -1px;
+        margin-top: -5px;
+    }
+    nav .nav-items {
+    display: flex;
+    position: absolute;
+    flex: 10px;
+    list-style: none;
+    padding: 0 0 0 140px;
+    margin-left: 210px;
+    margin-top: 5%;
+}
+nav .nav-items li {
+    padding: 0 45px;
+}
+
+nav .nav-items li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+
+}
+nav .nav-items li a:hover {
+    color: tomato;
+}
+     h1 {
+         color:white;
+         display: flex;
+         position: absolute ;
+         margin-left: 470px;
+         margin-top:-120px;
+
+
+     }
+    div2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+         background: url(cd1.jpg);
+         font-family: "poppins", sans-serif;
+     }
+
+     h2 {
+         position: relative;
+         font-size: 60px;
+         color: white;
+         letter-spacing: 1px;
+         font-weight: 500;
+         margin-bottom: 300px;
+         font-style: ;
+     }
+     #form {
+         position: absolute;
+         margin-top: -5%;
+
+     }
+     #form #reference {
+         width: 500px;
+         background: rgb(29, 28, 28);
+         outline: none;
+         border: none;
+         padding: 20px;
+         border-radius: 10px;
+         color: rgb(255, 255, 255);
+         font-style: 20px;
+
+     }
+     #form #inputbox {
+         position: relative;
+     }
+     #text {
+         display: block;
+         color: #000;
+         font-weight: 400;
+         font-style: bold italic;
+         padding: 10px;
+     }
+     h3 {
+         color: white;
+         position: absolute;
+         margin-top: -53px;
+         margin-left: 400px;
+         font-size: 20px;
+     }
+
+     h4 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 55%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+
+    .cleancode {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: -400px;
+
+     }
+     p1 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 100%;
+     }
+     p2 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 120%;
+
+     }
+     h5 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 165%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .codecomplete {
+        position: absolute;
+        margin-top: 110%;
+        margin-left: -400px;
+     }
+     p21 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 210%;
+     }
+     p22 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 230%;
+
+     }
+     h6 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 280%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .refactoring {
+        position: absolute;
+        margin-top: 168%;
+        margin-left: -400px;
+     }
+     p31 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 330%;
+         margin-left: 5%;
+     }
+     p32 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 350%;
+
+     }
+     h7 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 400%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .html {
+        position: absolute;
+        margin-top: 229%;
+        margin-left: -400px;
+     }
+
+     p41 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 450%;
+         margin-left: -4%;
+         
+     }
+     p42 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 470%;
+
+     }
+     p {
+         position: absolute;
+         margin-top: 500%;
+     }
+    
+      
+</style>
+
+
+    <body>
+        <nav>
+            <div class="library">Library</div>
+            <div class="nav-items">
+                <li><a href="#101">101</a></li>
+                <li><a href="#602">602</a></li>
+                <li><a href="#708">708</a></li>
+                <li><a href="#882">882</a></li>
+                <li><a href="home.html">Home</a></li>
+            </div>
+
+        </nav>
+        <h1>WELCOME TO Coding Section</h1>
+        <h3>Rack No:</h3>
+       <div2>
+            <h2>Check Books here</h2>
+            <form id="form" action="#">
+                <div class="inputbox">
+                    <input type="text" name="" id="reference" placeholder="Search here.." onkeydown="validation()">
+                    <span id="text"></span>
+
+                </div2>
+                
+            </form>
+        </div>
+        
+        <script type="text/javascript">
+            function validation()
+            {
+                var form = document.getElementById("form");
+                var reference = document.getElementById("reference").value;
+                var text = document.getElementById("text");
+            
+
+                var a=["cleancode","robert cecil martin","robert","cecil","martin"];
+                var b= ["codecomplete","steve mcconnell","steve"];
+                var c= ["refactoring","martin fowler","kent beck","kent","martin"];
+                var d= ["html&css","jon duckett","jon","duckett"];
+                if(reference==""){
+                text.innerHTML = " ";
+               }
+               else{
+                if (a.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 101";
+                    text.style.color = "#00ff00";
+                } 
+                else if (b.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 602";
+                    text.style.color = "#00ff00";
+                }
+                else if (c.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 708";
+                    text.style.color = "#00ff00";
+                }
+                else if (d.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 882";
+                    text.style.color = "#00ff00";
+                }
+                
+                else {
+                    form.classList.remove("valid");
+                    form.classList.add("invalid");
+                    text.innerHTML = "Not Available Now";
+                    text.style.color = "red";
+                    
+                    
+                }
+            }
+              
+            }
+        </script>
+        </br>
+        <h4><a class="101" name="101"> &nbsp &nbspRack no: 101&nbsp </a></h4>
+        <img class="cleancode" src="p1.jpg" width="350" height="500">
+        <p1><b>About Book:</b><br><br><b>Name:</b>&nbsp Cleancode<br><b>Aurthor:</b>&nbsp Robert Cecil Martin</p1>
+        <p2><i>Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way.</i></p2>
+        <br>
+        <br>
+        <h5><a class="602" name="602"> &nbsp &nbspRack no: 602&nbsp </a></h5>
+        <img class="codecomplete" src="p2.jpg" width="350" height="500"> 
+        <p21><b>About Book:</b><br><br><b>Name:</b>&nbsp Code Complete<br><b>Aurthor:</b>&nbsp Steve McConnell</p21>
+        <br>
+        <br>
+        <p22><i>Code Complete is a software development book, written by Steve McConnell and published in 1993 by Microsoft Press, encouraging developers to continue past code-and-fix programming and the big design up front and waterfall models.</i></p22>
+        <br>
+        <br>
+        <h6><a class="708" name="708"> &nbsp &nbspRack no: 708&nbsp </a></h6>
+        <img class="refactoring" src="r1.jpg" width="350" height="500">
+        <p31><b>About Book:</b><br><br><b>Name:</b>&nbsp Refactoring<br><b>Aurthors:</b>&nbsp Martin Fowler, Kent Beck</p31>
+        <br>
+        <br>
+        <p32><i>Fully Revised and Updated–Includes New Refactorings and Code Examples “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</i></p32>
+        <br>
+        <br>
+        <h7><a class="882" name="882"> &nbsp &nbsp<b>Rack no: 882</b>&nbsp </a></h7>
+        <img class="html" src="h1.jpg" width="350" height="500">
+        <p41><b>About Book:</b><br><br><b>Name:</b>&nbsp HTML & CSS<br><b>Aurthor:</b>&nbsp Jon Duckett</p41>
+        <br>
+        <br>
+        <p42><i>A full-color introduction to the basics of HTML and CSS from the publishers of Wrox!  Every day, more and more people want to learn some HTML and CSS.</i></p42>
+        <br>
+        <br>
+        <p>&nbsp</p>
+
+
+
+
+    </body>
+    
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mechanical Section</title>
+    </head>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    }
+    body {
+        background: black;
+    }
+    nav {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+        padding: 0 100px;
+
+    }
+    nav .library {
+        color: white;
+        font-size: 55px;
+        font-weight: 600px;
+        letter-spacing: -1px;
+        margin-top: -5px;
+    }
+    nav .nav-items {
+    display: flex;
+    position: absolute;
+    flex: 10px;
+    list-style: none;
+    padding: 0 0 0 140px;
+    margin-left: 210px;
+    margin-top: 5%;
+}
+nav .nav-items li {
+    padding: 0 45px;
+}
+
+nav .nav-items li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+
+}
+nav .nav-items li a:hover {
+    color: tomato;
+}
+     h1 {
+         color:white;
+         display: flex;
+         position: absolute ;
+         margin-left: 470px;
+         margin-top:-120px;
+
+
+     }
+    div2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+         background: url(cd1.jpg);
+         font-family: "poppins", sans-serif;
+     }
+
+     h2 {
+         position: relative;
+         font-size: 60px;
+         color: white;
+         letter-spacing: 1px;
+         font-weight: 500;
+         margin-bottom: 300px;
+         font-style: "poppins";
+     }
+     #form {
+         position: absolute;
+         margin-top: -5%;
+
+     }
+     #form #reference {
+         width: 500px;
+         background: rgb(29, 28, 28);
+         outline: none;
+         border: none;
+         padding: 20px;
+         border-radius: 10px;
+         color: rgb(255, 255, 255);
+         font-style: 20px;
+
+     }
+     #form #inputbox {
+         position: relative;
+     }
+     #text {
+         display: block;
+         color: #000;
+         font-weight: 400;
+         font-style: bold italic;
+         padding: 10px;
+     }
+     h3 {
+         color: white;
+         position: absolute;
+         margin-top: -53px;
+         margin-left: 400px;
+         font-size: 20px;
+     }
+
+     h4 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 55%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+
+    .cleancode {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: -400px;
+
+     }
+     p1 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 100%;
+     }
+     p2 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 120%;
+
+     }
+     h5 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 165%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .codecomplete {
+        position: absolute;
+        margin-top: 110%;
+        margin-left: -400px;
+     }
+     p21 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 210%;
+         margin-left: 17%;
+     }
+     p22 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 230%;
+
+     }
+     h6 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 280%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .refactoring {
+        position: absolute;
+        margin-top: 168%;
+        margin-left: -400px;
+     }
+     p31 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 330%;
+         margin-left: 19%;
+     }
+     p32 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 350%;
+
+     }
+     h7 {
+         width: 13%;
+         max-width: 100%;
+         height: 30px;
+         margin-top: 400%;
+         color: black; 
+         position: absolute;
+         font-size: 22px;
+         border: none;
+         border-radius: 5px;
+         background-color: tomato;
+         outline: none;
+         border:none;
+
+     }
+     .html {
+        position: absolute;
+        margin-top: 229%;
+        margin-left: -400px;
+     }
+
+     p41 {
+         color:white;
+         position: absolute;
+         font-size: 22px;
+         margin-top: 450%;
+         margin-left: -4%;
+         
+     }
+     p42 {
+         color: white;
+         position: absolute;
+         font-size: 22px;
+         margin-left: 39%;
+         margin-top: 470%;
+
+     }
+     p {
+         position: absolute;
+         margin-top: 500%;
+     }
+    
+      
+</style>
+
+
+    <body>
+        <nav>
+            <div class="library">Library</div>
+            <div class="nav-items">
+                <li><a href="#222">222</a></li>
+                <li><a href="#408">408</a></li>
+                <li><a href="#662">662</a></li>
+                <li><a href="#972">972</a></li>
+                <li><a href="home.html">Home</a></li>
+            </div>
+
+        </nav>
+        <h1>WELCOME TO Mechanical Section</h1>
+        <h3>Rack No:</h3>
+       <div2>
+            <h2>Check Books here</h2>
+            <form id="form" action="#">
+                <div class="inputbox">
+                    <input type="text" name="" id="reference" placeholder="Search here.." onkeydown="validation()">
+                    <span id="text"></span>
+
+                </div2>
+                
+            </form>
+        </div>
+        
+        <script type="text/javascript">
+            function validation()
+            {
+                var form = document.getElementById("form");
+                var reference = document.getElementById("reference").value;
+                var text = document.getElementById("text");
+            
+
+                var a=["yunus","cengel","heattransfer","heat transfer","heat","transfer"];
+                var b= ["engineeringmechanics","engineering","mechanics","bhavikatti","rajashekarappa"];
+                var c= ["fundamentalsofmachinecomponentdesign","Fundamentals of machine component design","fundamentals","machine","component","design","robertjuvinall","robert","juvinall"];
+                var d= ["fluidmechanics","fluid","bansal","duck","Fluid Mechanics"];
+               if(reference==""){
+                text.innerHTML = " ";
+               }
+               else{
+                if (a.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 222";
+                    text.style.color = "#00ff00";
+                } 
+                else if (b.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 408";
+                    text.style.color = "#00ff00";
+                }
+                else if (c.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 662";
+                    text.style.color = "#00ff00";
+                }
+                else if (d.indexOf(reference)>-1)
+                
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = " Book is Available in Rack no: 972";
+                    text.style.color = "#00ff00";
+                }
+                
+                else {
+                    form.classList.remove("valid");
+                    form.classList.add("invalid");
+                    text.innerHTML = "Not Available Now";
+                    text.style.color = "red";
+                    
+                    
+                }
+            }
+              
+            }
+        </script>
+        </br>
+        <h4><a class="101" name="222"> &nbsp &nbspRack no: 222&nbsp </a></h4>
+        <img class="cleancode" src="heat.jpg" width="350" height="500">
+        <p1><b>About Book:</b><br><br><b>Name:</b>&nbsp Heat Transfer<br><b>Aurthor:</b>&nbsp Yunus A Cengel</p1>
+        <p2><i>"Heat and mass transfer is a basic science that deals with the rate of transfer of thermal energy. It is an exciting and fascinating subject with unlimited practical applications ranging from biological ...</i></p2>
+        <br>
+        <br>
+        <h5><a class="602" name="408"> &nbsp &nbspRack no: 408&nbsp </a></h5>
+        <img class="codecomplete" src="em.jpg" width="350" height="500"> 
+        <p21><b>About Book:</b><br><br><b>Name:</b>&nbsp Engineering Mechanics<br><b>Aurthor:</b>&nbsp S.S. Bhavikatti, K. G. Rajashekarappa</p21>
+        <br>
+        <br>
+        <p22><i>This is a comprehensive book meeting complete requirements of Engineering Mechanics course of undergraduate syllabus. Emphasis has been laid on drawing neat freebody diagrams and then applying laws of mechanics. Standard notations are used throughout and important points are stressed.</i></p22>
+        <br>
+        <br>
+        <h6><a class="708" name="662"> &nbsp &nbspRack no: 662&nbsp </a></h6>
+        <img class="refactoring" src="fund.jpg" width="350" height="500">
+        <p31><b>About Book:</b><br><br><b>Name:</b>&nbsp Fundamentals of machine component design<br><b>Aurthors:</b>&nbsp Robert Juvinall</p31>
+        <br>
+        <br>
+        <p32><i>Fundamentals of Machine Component Design presents a thorough introduction to the concepts and methods essential to mechanical engineering design, analysis, and application.</i></p32>
+        <br>
+        <br>
+        <h7><a class="882" name="972"> &nbsp &nbsp<b>Rack no: 972</b>&nbsp </a></h7>
+        <img class="html" src="fm.jpg" width="350" height="500">
+        <p41><b>About Book:</b><br><br><b>Name:</b>&nbsp Fluid Mechanics<br><b>Aurthor:</b>&nbsp  R.K. Bansal</p41>
+        <br>
+        <br>
+        <p42><i> Written in a simple and easy-to-follow language, with theoretical questions and numerical problems, this book includes properties of fluids, pressure and its measurement, hydrostatic forces on submerged surfaces, buoyancy and flotation, and dimensional analysis.</i></p42>
+        <br>
+        <br>
+        <p>&nbsp</p>
+
+
+
+    </body>
+    
+</html>
